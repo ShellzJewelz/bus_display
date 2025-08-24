@@ -1,0 +1,13 @@
+[Unit]
+Description=Bus Infomation Display
+BindsTo=graphical-session.target
+PartOf=graphical-session.target
+After=network-online.target graphical-session.target xorg.target
+
+[Install]
+WantedBy=graphical-session.target
+
+[Service]
+Type=exec
+ExecStartPre=/bin/sleep 30
+ExecStart=python /usr/bin/bus_display/bus_display.py
