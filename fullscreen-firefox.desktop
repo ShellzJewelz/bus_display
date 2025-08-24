@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Fullscreen Firefox
+Exec=xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11
+StartupNotify=false
+Terminal=false
+Hidden=false
+Category=Utility;
