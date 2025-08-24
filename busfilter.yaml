@@ -1,0 +1,33 @@
+# Language: Hebrew/English
+#
+# Operators:
+# 	Egged - 3
+# 	Metropolin - 4
+# 	Kavim - 11
+# 	Extra - 37
+
+Language: Hebrew
+
+BusStops:
+  - StopCode: 31415
+    Filters:
+      - Operator: 37
+        Lines: 71
+
+
+  - StopCode: 31412
+    Filters:
+      - Operator: 37
+        Lines: 71, 66
+
+
+  - StopCode: 39162
+    Filters:
+      - Operator: 37
+        Lines: 67, 148
+
+
+  - StopCode: 39163
+    Filters:
+      - Operator: 37
+        Lines: 70, 148, 63א 
