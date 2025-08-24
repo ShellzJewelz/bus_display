@@ -5,7 +5,7 @@ PartOf=graphical-session.target
 After=network-online.target graphical-session.target xorg.target
 
 [Install]
-WantedBy=graphical-session.target
+WantedBy=default.target
 
 [Service]
 Type=exec
